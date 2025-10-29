@@ -1,3 +1,1 @@
-koreanize_matplotlib
-matplotlib
-plotly
+{"tool_uses":[{"recipient_name":"functions.execute_python","parameters":{"code":"requirements = [\n    \"streamlit\",\n    \"pandas\",\n    \"plotly\",\n    \"koreanize_matplotlib\"  # 포함하기, 필요 시 설치 가능\n]\n\nwith open(\"requirements.txt\", \"w\") as f:\n    for pkg in requirements:\n        f.write(pkg + \"\\n\")\n\nrequirements_txt = open(\"requirements.txt\").read()\nrequirements_txt"}}]}
